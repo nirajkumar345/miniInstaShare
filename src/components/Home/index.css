@@ -1,0 +1,142 @@
+.home-container {
+  background-color: #fafafa;
+  min-height: 85vh;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+  .home-container {
+    padding: 0px 90px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .home-container {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-container {
+    padding: 0 25px;
+  }
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #334155;
+  opacity: 0.3;
+}
+
+.slick-slider.slick-initialized {
+  margin: 48px 25px;
+}
+
+.story-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.story-username {
+  text-align: center;
+  color: #262626;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.posts-list-container {
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.loader-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 16vh;
+}
+
+.failure-view-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.failure-view-image {
+  width: 90px;
+}
+
+.sm {
+  width: 50px;
+}
+
+.failure-view-description {
+  color: #262626;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0 16px 0;
+}
+
+.sm-text {
+  font-size: 12px;
+}
+
+.retry-button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-results-heading {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.no-results-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+  margin: 12px 0 12px;
+}
+
+.no-results-description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+  margin: 0;
+}

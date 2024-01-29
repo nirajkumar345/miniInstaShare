@@ -1,0 +1,66 @@
+.my-profile-container {
+  background-color: #fafafa;
+  min-height: 85vh;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1100px) {
+  .my-profile-container {
+    padding: 0px 90px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .my-profile-container {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .my-profile-container {
+    padding: 0 25px;
+  }
+}
+
+.loader-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 16vh;
+}
+
+.failure-view-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.failure-view-image {
+  width: 480px;
+}
+
+.failure-view-description {
+  color: #262626;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+  margin: 48px 0 32px 0;
+}
+
+.retry-button {
+  padding: 12px 32px;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
